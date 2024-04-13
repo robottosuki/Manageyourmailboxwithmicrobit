@@ -1,7 +1,0 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="YRcK!U!exXG6Hw!qVjKj" x="0" y="0"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="device_show_leds" id="I^+Ds.`JyQP[bm4PVwwj"><field name="LEDS">`
-        # # # # # 
-        # # # # # 
-        # # # # # 
-        # # # # # 
-        # # # # #
-        `</field><next><block type="device_pause" id="V74Mc|:H{KY1yfoFVH[?"><value name="pause"><shadow type="timePicker" id="?%m[tEy]lCg@JV7xMK_;"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="}yA@X-.FYz*e@1DC,g]V"><next><block type="radio_datagram_send" id="nLa_3,um=IJ/PK-{Y6,w"><value name="value"><shadow type="math_number" id="QH,pIDnl5gaBi~f[gaej"><field name="NUM">102</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="C;FsY#=|/J8iM#t:NeRL" x="298" y="-3"><statement name="HANDLER"><block type="radio_set_group" id="-Nz;94=z^EfOs[SF=c)K"><value name="ID"><shadow type="math_number_minmax" id="SoNf3`*nY7|#[R?$}13,"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">2</field></shadow></value></block></statement></block><block type="device_button_event" id="l:56LM5hu],$]rUnL$$e" x="304" y="145"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="control_reset" id="91$zBWaeO;jI7K(x60k!"></block></statement></block></xml>
